@@ -8,26 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 45 29% 97%;
+    --foreground: 20 14% 4%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 20 14% 4%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 20 14% 4%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 25 85% 53%;
+    --primary-foreground: 45 29% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 45 23% 89%;
+    --secondary-foreground: 20 14% 4%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 45 23% 89%;
+    --muted-foreground: 25 5% 44%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 77% 62%;
+    --accent-foreground: 20 14% 4%;
+
+    /* Bazaar theme colors */
+    --bazaar-orange: 25 85% 53%;
+    --bazaar-terracotta: 15 75% 45%;
+    --bazaar-gold: 45 100% 68%;
+    --bazaar-cream: 45 29% 97%;
+    --bazaar-earth: 25 20% 25%;
+    
+    /* Gradients */
+    --gradient-bazaar: linear-gradient(135deg, hsl(var(--bazaar-orange)), hsl(var(--accent)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--card)), hsl(var(--muted)));
+    
+    /* Shadows */
+    --shadow-warm: 0 4px 20px hsl(var(--bazaar-orange) / 0.15);
+    --shadow-card: 0 2px 10px hsl(var(--foreground) / 0.08);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;

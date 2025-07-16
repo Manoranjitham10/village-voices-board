@@ -61,6 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				bazaar: {
+					orange: 'hsl(var(--bazaar-orange))',
+					terracotta: 'hsl(var(--bazaar-terracotta))',
+					gold: 'hsl(var(--bazaar-gold))',
+					cream: 'hsl(var(--bazaar-cream))',
+					earth: 'hsl(var(--bazaar-earth))'
 				}
 			},
 			borderRadius: {
